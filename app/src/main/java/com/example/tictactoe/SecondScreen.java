@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SecondScreen extends AppCompatActivity {
+public class SecondScreen extends AppCompatActivity implements View.OnClickListener{
     private Button[][] grid = new Button[3][3];
     private boolean player1Turn = true;
 
@@ -41,7 +41,7 @@ public class SecondScreen extends AppCompatActivity {
         }
 
         Button Reset = findViewById(R.id.reset);
-        Reset.setOnClickListener(new View.OnClickListener() {
+        Reset.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 resetGame();
