@@ -4,7 +4,6 @@ import com.example.tictactoe.R;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,7 +12,6 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
     View view;
     private Button next;
-    MediaPlayer menuSong;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,19 +25,10 @@ public class MainActivity extends AppCompatActivity {
         });
         view = this.getWindow().getDecorView();
         view.setBackgroundResource(R.color.Orange);
-        menuSong = MediaPlayer.create(getApplicationContext(), R.raw.tictactoemusic);
-        menuSong.start();
-
     }
 
     public void openSecondScreen() {
         Intent intent = new Intent(this, SecondScreen.class);
         startActivity(intent);
-    }
-
-    protected void onPause() {
-        super.onPause();
-        menuSong.stop();
-        menuSong.release();
     }
 }

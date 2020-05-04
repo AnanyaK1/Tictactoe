@@ -50,7 +50,7 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
             }
         });
         View view2 = this.getWindow().getDecorView();
-        view2.setBackgroundResource(R.color.DarkSapphire);
+        view2.setBackgroundResource(R.color.Blue);
     }
 
     @Override
