@@ -1,5 +1,6 @@
 package com.example.tictactoe;
 
+import com.example.tictactoe.R;
 import android.os.Bundle;
 import android.content.Intent;
 import android.view.View;
@@ -26,6 +27,7 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.secondscreen);
 
         Player1 = findViewById(R.id.player1);
