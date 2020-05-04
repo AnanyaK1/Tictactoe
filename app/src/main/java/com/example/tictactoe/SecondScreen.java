@@ -47,6 +47,8 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
                 resetGame();
             }
         });
+        View view2 = this.getWindow().getDecorView();
+        view2.setBackgroundResource(R.color.Blue);
     }
 
     @Override
@@ -202,5 +204,6 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
         player1Turn = savedInstanceState.getBoolean("player1Turn");
 
     }
+
 }
 

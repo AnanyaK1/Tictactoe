@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+    View view;
     private Button next;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
                 openSecondScreen();
             }
         });
+        view = this.getWindow().getDecorView();
+        view.setBackgroundResource(R.color.Orange);
     }
 
     public void openSecondScreen() {
