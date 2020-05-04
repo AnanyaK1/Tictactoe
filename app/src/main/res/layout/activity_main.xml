@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
         android:background="@color/NavyBlue"
+        android:textStyle="bold"
 
         android:text="START"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,6 +48,7 @@
         android:layout_marginRight="108dp"
         android:layout_marginBottom="16dp"
         android:textColor="#FFFFFF"
+        android:textStyle="bold"
         android:text="Welcome to CS125 TicTacToe!"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"

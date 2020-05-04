@@ -14,6 +14,7 @@
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
+            android:textStyle="bold"
             android:text="PLAYER 1" />
 
         <TextView
@@ -23,6 +24,7 @@
             android:layout_marginTop="25dp"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
+            android:textStyle="bold"
             android:text="PLAYER 2" />
 
         <Button
@@ -33,6 +35,7 @@
             android:layout_toRightOf="@id/player1"
             android:background="#FF8C00"
             android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:text="RESET" />
 
     </RelativeLayout>
@@ -47,9 +50,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:alpha=".25"
+            android:alpha=".60"
             android:color="#4285F4"
             android:freezesText="true"
+            android:textColor="@color/Coral"
             android:textSize="60sp" />
 
         <Button
@@ -57,9 +61,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:alpha=".25"
+            android:alpha=".60"
             android:color="#4285F4"
             android:freezesText="true"
+            android:textColor="@color/Coral"
             android:textSize="60sp" />
 
         <Button
@@ -67,9 +72,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:alpha=".25"
+            android:alpha=".60"
             android:color="#4285F4"
             android:freezesText="true"
+            android:textColor="@color/Coral"
             android:textSize="60sp" />
 
     </LinearLayout>
@@ -84,9 +90,10 @@
             android:layout_width="2dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:alpha=".25"
+            android:alpha=".60"
             android:color="#4285F4"
             android:freezesText="true"
+            android:textColor="@color/Coral"
             android:textSize="60sp" />
 
         <Button
@@ -94,9 +101,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:alpha=".25"
+            android:alpha=".60"
             android:color="#4285F4"
             android:freezesText="true"
+            android:textColor="@color/Coral"
             android:textSize="60sp" />
 
         <Button
@@ -104,9 +112,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:alpha=".25"
+            android:alpha=".60"
             android:color="#4285F4"
             android:freezesText="true"
+            android:textColor="@color/Coral"
             android:textSize="60sp" />
 
     </LinearLayout>
@@ -121,9 +130,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:alpha=".25"
+            android:alpha=".60"
             android:color="#4285F4"
             android:freezesText="true"
+            android:textColor="@color/Coral"
+            android:textStyle="bold"
             android:textSize="60sp" />
 
         <Button
@@ -131,9 +142,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:alpha=".25"
+            android:alpha=".60"
             android:color="#4285F4"
             android:freezesText="true"
+            android:textColor="@color/Coral"
+            android:textStyle="bold"
             android:textSize="60sp" />
 
         <Button
@@ -141,9 +154,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:alpha=".25"
+            android:alpha=".60"
             android:color="#000080"
             android:freezesText="true"
+            android:textColor="@color/Coral"
+            android:textStyle="bold"
             android:textSize="60sp" />
 
     </LinearLayout>
