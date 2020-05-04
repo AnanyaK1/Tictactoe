@@ -42,7 +42,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -51,7 +50,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -60,7 +58,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
     </LinearLayout>
@@ -73,10 +70,9 @@
         <Button
             android:id="@+id/button_10"
             android:layout_width="0dp"
-            android:layout_height="175dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -85,7 +81,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -94,7 +89,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
     </LinearLayout>
@@ -110,7 +104,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -119,7 +112,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -128,7 +120,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
     </LinearLayout>
