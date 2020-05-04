@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
-        android:background="@color/Blue"
+        android:background="@color/NavyBlue"
 
         android:text="START"
         app:layout_constraintBottom_toBottomOf="parent"

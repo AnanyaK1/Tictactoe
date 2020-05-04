@@ -12,6 +12,8 @@
             android:id="@+id/player1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
             android:text="PLAYER 1" />
 
         <TextView
@@ -19,6 +21,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
             android:text="PLAYER 2" />
 
         <Button
@@ -27,6 +31,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="236dp"
             android:layout_toRightOf="@id/player1"
+            android:background="#FF8C00"
+            android:textColor="#FFFFFF"
             android:text="RESET" />
 
     </RelativeLayout>
@@ -41,8 +47,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:alpha=".25"
+            android:color="#4285F4"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -50,8 +57,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:alpha=".25"
+            android:color="#4285F4"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -59,8 +67,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:alpha=".25"
+            android:color="#4285F4"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
     </LinearLayout>
@@ -73,10 +82,11 @@
         <Button
             android:id="@+id/button_10"
             android:layout_width="2dp"
-            android:layout_height="174dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:alpha=".25"
+            android:color="#4285F4"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -84,8 +94,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:alpha=".25"
+            android:color="#4285F4"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -93,8 +104,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:alpha=".25"
+            android:color="#4285F4"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
     </LinearLayout>
@@ -109,8 +121,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:alpha=".25"
+            android:color="#4285F4"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -118,8 +131,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:alpha=".25"
+            android:color="#4285F4"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
         <Button
@@ -127,8 +141,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:alpha=".25"
+            android:color="#000080"
             android:freezesText="true"
-            android:text="_"
             android:textSize="60sp" />
 
     </LinearLayout>
