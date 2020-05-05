@@ -50,7 +50,7 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
             }
         });
         View view2 = this.getWindow().getDecorView();
-        view2.setBackgroundResource(R.color.Blue);
+        view2.setBackgroundResource(R.color.NavyBlue);
     }
 
     @Override
@@ -128,8 +128,8 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
     }
 
     private void ScoreUpdate() {
-        Player1.setText("Player 1: " + score1);
-        Player2.setText("Player 2: " + score2);
+        Player1.setText("PLAYER 1: " + score1);
+        Player2.setText("PLAYER 2: " + score2);
     }
 //    private void ScoreUpdate() {
 //        System.out.print("Player 1: " + score1);
