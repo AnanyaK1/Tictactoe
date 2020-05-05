@@ -131,11 +131,6 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
         Player1.setText("PLAYER 1: " + score1);
         Player2.setText("PLAYER 2: " + score2);
     }
-//    private void ScoreUpdate() {
-//        System.out.print("Player 1: " + score1);
-//        System.out.print("Player 2: " + score2);
-//
-//    }
 
     private void resetBoard() {
         for (int i = 0; i < 3; i++) {
@@ -151,7 +146,6 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
     private void resetGame() {
         score1 = 0;
         score2 = 0;
-        //updatePointsText(
         ScoreUpdate();
         resetBoard();
     }
