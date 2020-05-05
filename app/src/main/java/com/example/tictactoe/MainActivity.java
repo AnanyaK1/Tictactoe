@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
         view.setBackgroundResource(R.color.Orange);
         menuSong = MediaPlayer.create(getApplicationContext(), R.raw.tictactoemusic);
         menuSong.start();
-
+        Intent svc = new Intent(this, BackgroundService.class);
+        startService(svc);
     }
 
     public void openSecondScreen() {
@@ -37,9 +38,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
     protected void onPause() {
         super.onPause();
-        menuSong.stop();
-        menuSong.release();
+        if (menuSong != null) {
+            menuSong.stop();
+            if (isFinishing()) {
+                menuSong.stop();
+                menuSong.release();
+            }
+        }
     }
 }

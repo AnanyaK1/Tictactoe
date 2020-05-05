@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondScreen" />
+        <service android:enabled="true" android:name=".BackgroundService" />
     </application>
 
 </manifest>
