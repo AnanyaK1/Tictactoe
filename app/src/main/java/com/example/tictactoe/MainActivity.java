@@ -13,7 +13,6 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
     View view;
     private Button next;
-    MediaPlayer menuSong;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,10 +26,8 @@ public class MainActivity extends AppCompatActivity {
         });
         view = this.getWindow().getDecorView();
         view.setBackgroundResource(R.color.Orange);
-        menuSong = MediaPlayer.create(getApplicationContext(), R.raw.tictactoemusic);
-        menuSong.start();
-        Intent svc = new Intent(this, BackgroundService.class);
-        startService(svc);
+        Intent media = new Intent(this, BackgroundService.class);
+        startService(media);
     }
 
     public void openSecondScreen() {
@@ -38,15 +35,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
-    protected void onPause() {
-        super.onPause();
-        if (menuSong != null) {
-            menuSong.stop();
-            if (isFinishing()) {
-                menuSong.stop();
-                menuSong.release();
-            }
-        }
-    }
 }
