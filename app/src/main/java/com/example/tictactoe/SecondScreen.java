@@ -101,7 +101,6 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
             } else if (status[0][2].equals(status[1][1]) && status[0][2].equals(status[2][0]) && !status[0][2].equals("")) {
                 return true;
             }
-
         }
         return false;
     }
