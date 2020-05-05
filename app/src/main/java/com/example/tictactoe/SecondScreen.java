@@ -67,7 +67,7 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
 
         roundCount++;
 
-        if (checkForWin()) {
+        if (checkForWin() == true) {
             if (player1Turn) {
                 player1Wins();
             } else {
@@ -157,15 +157,15 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
         resetBoard();
     }
 
-//    private void updatePointsText() {
-//        Player1.setText("Player 1: " + score1);
-//        Player2.setText("Player 2: " + score2);
-//    }
     private void ScoreUpdate() {
-        System.out.print("Player 1: " + score1);
-        System.out.print("Player 2: " + score2);
-
+        Player1.setText("Player 1: " + score1);
+        Player2.setText("Player 2: " + score2);
     }
+//    private void ScoreUpdate() {
+//        System.out.print("Player 1: " + score1);
+//        System.out.print("Player 2: " + score2);
+//
+//    }
 
     private void resetBoard() {
         for (int i = 0; i < 3; i++) {
