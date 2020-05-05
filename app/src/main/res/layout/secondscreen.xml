@@ -134,7 +134,6 @@
             android:color="#4285F4"
             android:freezesText="true"
             android:textColor="@color/Coral"
-            android:textStyle="bold"
             android:textSize="60sp" />
 
         <Button
@@ -146,7 +145,6 @@
             android:color="#4285F4"
             android:freezesText="true"
             android:textColor="@color/Coral"
-            android:textStyle="bold"
             android:textSize="60sp" />
 
         <Button
@@ -158,7 +156,6 @@
             android:color="#000080"
             android:freezesText="true"
             android:textColor="@color/Coral"
-            android:textStyle="bold"
             android:textSize="60sp" />
 
     </LinearLayout>

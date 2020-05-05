@@ -90,8 +90,8 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
             }
         }
 
-        for (int i = 0; i < 3; i++) {
-
+       for (int i = 0; i < 3; i++) {
+//
             if (status[i][0].equals(status[i][1]) && status[i][0].equals(status[i][2]) && !status[i][0].equals("")) {
                 return true;
             } else if (status[0][i].equals(status[1][i]) && status[0][i].equals(status[2][i]) && !status[0][i].equals("")) {
@@ -101,40 +101,11 @@ public class SecondScreen extends AppCompatActivity implements View.OnClickListe
             } else if (status[0][2].equals(status[1][1]) && status[0][2].equals(status[2][0]) && !status[0][2].equals("")) {
                 return true;
             }
-            return false;
+
         }
         return false;
     }
-//        for (int i = 0; i < 3; i++) {
-//
-//            if (status[i][0].equals(status[i][1]) && status[i][0].equals(status[i][2]) && !status[i][0].equals("")) {
-//                return true;
-//            }
-//        }
-//
-//        for (int i = 0; i < 3; i++) {
-//            if (status[0][i].equals(status[1][i]) && status[0][i].equals(status[2][i]) && !status[0][i].equals("")) {
-//                return true;
-//            }
-//        }
 
-//        if (status[0][0].equals(status[1][1])
-//                && status[0][0].equals(status[2][2])
-//                && !status[0][0].equals("")) {
-//            return true;
-//        }
-//
-//        if (status[0][2].equals(status[1][1])
-//                && status[0][2].equals(status[2][0])
-//                && !status[0][2].equals("")) {
-//            return true;
-//        }
-//
-//        return false;
-//    }
-
-//    private void winner() {
-//    }
 
     private void player1Wins() {
         score1++;
